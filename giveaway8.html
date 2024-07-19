@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="question8.css">
+        <title> have a pet to give away</title>
+    <style>
+        input[type="submit"], input[type="reset"] {
+    background-color: #D0A577; 
+    color: white;
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 4px; 
+}
+    </style>
+    </head>
+    <body>
+  <!-- Header-->      
+<header> 
+
+    <div>Adopt A-Cat/Dog </div>
+    <div>
+    <a href="question8.html">
+        <img src="logo.png" height="50" class="logo" alt="logo"> </a>
+    </div>
+</header>
+<main>
+    <div class="container side-menu">
+    <!--Side menu-->
+    <ul>
+        <li><a  href="question8.html">Home Page</a></li>
+        <li><a href="availability8.html">Browse Available Pets</a></li>
+        <li><a href="find8.html">Find a dog/cat</a></li>
+        <li><a href="dogcare8.html">Dog Care</a></li>
+        <li><a href="catcare8.html">Cat Care</a></li>
+        <li><a class="active" href="giveaway8.html">Have a pet to give away</a></li>
+        <li><a href="contact8.html">Contact Us</a></li>
+      </ul>
+      <!-- content-area -->
+      <div id="home" class="content-area">
+        <h2 style="margin:20px;"> 
+            Please fill out this form if you have a pet to give for adoption!
+        </h2>
+
+<form style=" padding:10px; margin: 20px; border:2px solid black;"> 
+    <div> 
+        <span>Please select the type of the pet:</span>
+          <input type="radio" id="cat" name="type" value="cat">
+          <label for="cat">cat</label>
+          <input type="radio" id="dog" name="type" value="dog">
+          <label for="dog">dog</label>
+      </div>
+    <br>
+    <br>
+    <div> 
+        <label for="breed">Please select the breed of the pat:</label>
+        <select id="breed" name="breed">
+        <option value="ragdoll">Ragdoll</option>
+        <option value="persian">persian</option>
+        <option value="shorthair">Shorthair</option>
+        <option value="abyssinian">Abyssinian</option>
+        <option value="siberian">Siberian</option>
+        <option value="sphynx">Sphynx</option>
+        <option value="bengal">Bengal</option>
+        <option value="mixcat">persian-bengal mix</option>
+        <option value="poodle">Poodle</option>
+      <option value="rottweiler">Rottweiler</option>
+      <option value="labrador">Labrador</option>
+      <option value="husky">Husky</option>
+      <option value="bulldog">Bulldog</option>
+      <option value="german">German Shepherd</option>
+      <option value="beagle">Beagle</option>
+      <option value="mixdog1">shepherd-husky mix</option>
+      <option value="mixdog2">bulldog-retrieved mix</option>
+      <option value="mixdog3">shepherd-poodle mix</option>
+      
+     
+    </select>
+
+    </div>
+    <br>
+    <br>
+    <div> 
+        <label for="agedog">Choose the age:</label>
+    <select id="agedog" name="agedog">
+      <option value="less">less than 3 years old </option>
+      <option value="between">between 3 years old and 8 years old </option>
+      <option value="more">more than 8 years old </option>
+    </select>
+        </div>
+        <br><br>
+    <div>
+        <span>Please select the gender of the pet:</span>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">male</label>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">female</label>
+      </div>
+      <br>
+    <br>
+      
+    <div>
+        <p style="margin-bottom:-10px;"> Select with who it gets along<p>
+            <input type="checkbox" id="value1" name="value1" value="dog">
+          <label for="value1"> dog</label><br>
+          <input type="checkbox" id="value2" name="value2" value="cat">
+          <label for="value2">cat</label><br>
+          <input type="checkbox" id="value3" name="value3" value="children">
+          <label for="value3">children</label><br><br>
+    </div>
+    <br>
+<div> 
+    <textarea id="discussion" name="discussion" rows="4" cols="50">Tell us more about your pet!</textarea>
+</div>
+<br><br>
+   <div> 
+    <label for="fname">First name of the owner:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name of the owner:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+   </div>
+   <div> 
+    <label for="email">Email address of the owner:</label>
+    <input type="email" id="email" name="email"><br><br>
+    </div>
+    <br>
+    <input type="submit">
+<input type="reset" value="Clear">
+</form>
+
+
+      </div>
+    </div>
+</main>
+<!-- Footer-->
+<footer>
+<p> © 2024 Adopt A-Cat/Dog. All rights reserved.<br>
+<a href="contact8.html">Privacy/Disclamer Statement</a>
+</p>
+</footer>
+    </body>
+    </html>

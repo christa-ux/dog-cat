@@ -1,0 +1,22 @@
+ 
+div {
+    padding: 5px;
+    text-align: center;
+    width:200px;
+    height: 200px;
+    border: dotted 2px green; 
+    position: absolute
+    
+}
+#first {
+    top: 5px;
+    
+}
+#second {
+    top: 170px;
+    
+}
+.red {
+    color: red; 
+    font-weight: bold;
+}

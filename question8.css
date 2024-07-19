@@ -1,0 +1,135 @@
+
+* {
+    box-sizing: border-box;
+}
+
+/*Header */
+header {
+    border: #b7b992 2px solid;
+    margin: 0 0 10px 0;
+    font-size:30px;
+font-weight: bold;
+justify-content: center;
+
+}
+header img {
+    vertical-align: middle;
+}
+header div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*Footer */
+footer {
+    background-color: #b7b992;
+    text-align: center;
+    padding: 5px;
+    width:100%;
+    
+}
+footer a {
+    font-weight: bold;
+   text-decoration: none;
+   color: black;
+}
+
+/*Side Menu*/
+.side-menu ul {
+    list-style-type: none;
+    margin-bottom: 15px;
+    padding: 0;
+    width: 180px;
+    background-color: #f1f1f1;
+
+   
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #b7b992;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #D0A577;
+    color: white;
+  }
+/*Content Area*/
+main div {
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+   
+}
+.content-area {
+    flex: 1;
+    padding: 0 20px 20px 20px;
+
+}
+/* .checked {
+    color: #FCD341;
+  } */
+
+
+  .column {
+    flex: 1;
+    padding: 0 5px;
+}
+  .row {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap; 
+}
+ 
+  .row:after {
+   
+    display: table;
+    clear: both;
+  }
+  @media screen and (min-width: 770px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .column {
+        width: 100%;
+    }
+
+}
+  .card {
+    padding: 20px;
+    text-align: center;
+    background-color: #D0A577;
+    color: white;
+    width:250px;
+    margin: 10px;
+    font-size: 20px;
+  }  
+  .fa {font-size:500px;}
+
+  .card:hover {
+    background-color: #b7b992;
+    
+   
+  }
+  .card:hover p {
+    font-weight: bold;
+  }
+  
+.card:hover h3 {
+  font-size: 30px;
+  background-color: black;
+
+} 

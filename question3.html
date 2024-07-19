@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> question 3</title>
+    </head>
+    <body> 
+        <table>
+<tr>
+       <th> Music Lover's Survey</th>
+       <th> <a href="https://www.pngall.com/musical-notes-png/download/14991">
+        <img src="q3Photo.png" height="50" alt="photo"></a>
+       </th>
+    </tr>
+       </table>
+       
+        <form action="/form.php" 
+        method = "get">
+            <fieldset>
+                <legend>Music Lover's Personal Information</legend>
+                <label for="firstname" >First name</label>
+                <input type="text" id="firstname" name="firstname"><br> <br>
+                <label for="familyname">Family name</label>
+                <input type="text" id="familyname" name="familyname"><br><br>
+<label>Gender:</label>
+<input type="radio" id="Female" value="Female" name="gender">
+<label for="Female">Female</label>
+<input type="radio" id="Male" value="Male" name="gender">
+<label for="Male">Male</label>
+
+<br><br>
+<label for="age">What age category are you from?</label>
+<select name="age" id="age">
+    <option value="lessThan18">less than 18</option>
+    <option value="morethan18">more than 18</option>
+    <option value="eighteen">18</option>
+    
+  </select>
+  <br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br> <br>
+              
+    </fieldset>
+    <fieldset>
+                <legend> Survey Questions</legend>
+
+                <label>Which type of music do you listen to? (Pick as many as Apply)</label><br>
+                <input type="checkbox" id="genre1" name="genre1">
+                <label for="genre1">Blues</label>
+                <input type="checkbox" id="genre2" name="genre2">
+                <label for="genre2">Classical Music</label>
+                <input type="checkbox" id="genre3" name="genre3">
+                <label for="genre3">Indie</label>
+                <input type="checkbox" id="genre4" name="genre4">
+                <label for="genre4">Pop</label>
+                <input type="checkbox" id="genre5" name="genre5">
+                <label for="genre5">Rock</label> <br><br>
+
+                <label for="band1" >List your 3 favorite artist/bands:</label> <br>
+                <input type="text" id="band1" name="band1">
+                <input type="text" id="band2" name="band2">
+                <input type="text" id="band3" name="band3">
+                <br><br>
+
+
+                <label> If you were to win tickets which show would you like 2 tickets to?</label><br>
+                <input type="radio" id="PF" value="PF">
+<label for="PF">Pink Floyd</label>
+<input type="radio" id="RS" value="RS">
+<label for="RS">Rolling Stones</label>
+<input type="radio" id="ACDC" value="ACDC">
+<label for="ACDC">ACDC</label>
+<input type="radio" id="queen" value="queen">
+<label for="queen">Queen</label>
+
+    </fieldset>
+
+<br>
+<p> Thank you for taking the time to fill out our survey!
+</p>
+<input type="submit" value="Submit">
+<input type="reset" value="reset">
+</form>
+        </body>
+        </html>
